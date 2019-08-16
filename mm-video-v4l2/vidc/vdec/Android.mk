@@ -22,6 +22,7 @@ libmm-vdec-def += -UOUTPUT_BUFFER_LOG
 libmm-vdec-def += -Wno-parentheses
 libmm-vdec-def += -D_ANDROID_ICS_
 libmm-vdec-def += -DPROCESS_EXTRADATA_IN_OUTPUT_PORT
+libmm-vdec-def += -Wno-constant-logical-operand
 
 TARGETS_THAT_HAVE_VENUS_HEVC := apq8084 msm8994 msm8996
 TARGETS_THAT_SUPPORT_UBWC := msm8996 msm8953 msm8998 sdm660 sdm845 msmpeafowl sdm710 qcs605
